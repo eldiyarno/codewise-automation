@@ -23,6 +23,6 @@ public class CashWise {
         System.out.println(driver.getCurrentUrl());
         System.out.println(driver.getPageSource());
         driver.manage().window().maximize();
-        
+
     }
 }
