@@ -27,6 +27,7 @@ public class Dropdown {
         for (WebElement element1 : dropdowns){
             System.out.println(element1.getText());
         }
+
         dropdown.selectByVisibleText("Manual Testing");
         driver.findElement(By.id("male")).click();
         driver.findElement(By.className("Automation")).click();
